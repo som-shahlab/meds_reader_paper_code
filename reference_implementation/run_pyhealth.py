@@ -41,5 +41,4 @@ def length_of_stay_prediction_mimic3_fn(patient: pyhealth.data.Patient):
 
 task_mimic3_ds = data.set_task(task_fn=length_of_stay_prediction_mimic3_fn)
 
-with open('pyhealth_result.pkl', 'wb') as f:
-    pickle.dump(task_mimic3_ds.samples, f)
+print(len(task_mimic3_ds.samples))

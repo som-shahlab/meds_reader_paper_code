@@ -34,5 +34,3 @@ if __name__ == "__main__":
     with meds_reader.SubjectDatabase('datasets/pyhealth_meds_reader', num_threads=12) as database:
         for s in database.map(get_samples):
             samples.extend(s)
-
-    print(len(samples))
