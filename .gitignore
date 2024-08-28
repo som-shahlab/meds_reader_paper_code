@@ -1,0 +1,13 @@
+dist
+.vscode
+*.pyc
+meds_reader/native/bazel-*
+*.so
+*egg-info
+meds_reader/docs/source/meds_reader.py
+meds_reader/docs/source/README_copy.md
+meds_reader/src/meds_reader/meds_reader_convert
+*.swp
+meds_reader/docs/source/html/
+meds_reader/docs/source/latex/
+meds_reader/docs/source/_build/
