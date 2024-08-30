@@ -15,7 +15,7 @@ After conversion, make sure to run meds\_reader\_convert on both of the result f
 ```bash
 
 meds_reader_convert datasets/pyhealth_meds datasets/pyhealth_meds_reader --num_threads 10
-meds_reader_convert datasets/pipeline_meds datasets/pipline_meds_reader --num_threads 10
+meds_reader_convert datasets/pipeline_meds datasets/pipeline_meds_reader --num_threads 10
 ```
 
 4. reimplementation: Reimplementations of length of stay labeling and featurization using meds\_reader. Make sure to run the conversion scripts as well as meds\_reader\_convert before running.
