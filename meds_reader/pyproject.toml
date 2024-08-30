@@ -18,12 +18,6 @@ dependencies = [
 
 [tool.setuptools_scm]
 
-[project.urls]
-Homepage = "https://github.com/som-shahlab/meds_reader"
-Documentation = "https://meds-reader.readthedocs.io/en/latest/"
-Repository = "https://github.com/som-shahlab/meds_reader"
-Tracker = "https://github.com/som-shahlab/meds_reader/issues"
-
 [project.scripts]
 meds_reader_convert = "meds_reader:meds_reader_convert"
 meds_reader_verify = "meds_reader:meds_reader_verify"
