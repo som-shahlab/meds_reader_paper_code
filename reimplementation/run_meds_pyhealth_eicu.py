@@ -30,7 +30,7 @@ def get_samples(subjects: Iterator[meds_reader.Subject]):
 if __name__ == "__main__":
     samples = []
 
-    with meds_reader.SubjectDatabase('datasets/pyhealth_meds_reader', num_threads=12) as database:
+    with meds_reader.SubjectDatabase('../datasets/pyhealth_eicu_meds_reader', num_threads=12) as database:
         for s in database.map(get_samples):
             samples.extend(s)
 
